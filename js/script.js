@@ -24,6 +24,7 @@ function promptUserToRestart() {
   if (userChoice) {
     displayCard();
   } else {
+    startBtn.classList.remove('hide');
     questionDisplay.innerText = 'Have a great day!';
     answerDisplay.classList.add('hide');
     nextBtn.classList.add('hide');
